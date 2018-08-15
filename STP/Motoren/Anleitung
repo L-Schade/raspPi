@@ -1,0 +1,15 @@
+Anleitung
+
+ESC:
+$ sudo pigpiod
+
+RPIO:
+$ git clone https://github.com/tylerwowen/RPIO.git
+$ cd RPIO
+$ sudo python setup.py install
+
+$ sudo chown root.gpio /dev/mem
+$ sudo chmod g+rw		-> chmod: fehlender Operand nach »g+rw“
+„chmod --help“ liefert weitere Informationen.
+
+
