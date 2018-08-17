@@ -15,7 +15,7 @@ m1.start(10)   # start(duty circle [%])
 print("gestartet")
 
 # m1.ChangeDutyCycle(10)   # 3 - 10
-print m1
+# print m1
 time.sleep(6)
 
 m1.stop()
