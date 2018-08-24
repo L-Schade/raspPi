@@ -1,16 +1,20 @@
 import time
 import RPi.GPIO as GPIO
 
+#a = GPIO.VERSION  
+#print(a)
+
 # GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 # GPIO.setmode(GPIO.BOARD)
+
 
 GPIO.setup(17, GPIO.OUT)
 
 m1 = GPIO.PWM(17, 1000) # 1000  GPIO.PWM(pin, frequenz[Hz])
 # m2 = GPIO.PWM(17, 1100)
 
-m1.start(10)   # start(duty circle [%])
+m1.start(7)   # start(duty circle [%])
 # m2.start(5)
 print("gestartet")
 
@@ -20,7 +24,7 @@ time.sleep(6)
 
 m1.stop()
 GPIO.cleanup()
-quit()
+# quit()
 
 # try:
 #     while True:
