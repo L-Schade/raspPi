@@ -1,14 +1,15 @@
 # import RPIO
 from RPIO import PWM
-# from RPi.GPIO import PWM
 
+# from RPi.GPIO import PWM
+# import RPIO._GPIO as _GPIO
 
 
 # todo
 # RuntimeError: No access to /dev/mem. Try running as root!
 
 servo = PWM.Servo()
-servo.set_servo(17, 1200)
+servo.set_servo(19, 1200)
 servo.set_servo(17, 2000)
 servo.stop_servo(17)
 

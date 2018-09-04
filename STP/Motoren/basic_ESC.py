@@ -3,20 +3,27 @@ import RPi.GPIO as GPIO
 
 #a = GPIO.VERSION  
 #print(a)
+print(GPIO.RPI_INFO)
 
 # GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 # GPIO.setmode(GPIO.BOARD)
 
 
-GPIO.setup(17, GPIO.OUT)
+GPIO.setup(19, GPIO.OUT)
 
-m1 = GPIO.PWM(17, 1000) # 1000  GPIO.PWM(pin, frequenz[Hz])
-# m2 = GPIO.PWM(17, 1100)
+m1 = GPIO.PWM(19, GPIO.HIGH) # 1000  GPIO.PWM(pin, frequenz[Hz])
+##m1 = GPIO.HARD_PWM(19,10000)
+m2 = GPIO.PWM(19, 1000)
 
-m1.start(7)   # start(duty circle [%])
-# m2.start(5)
+dc = 7
+
+m1.start(dc)   # start(duty circle [%])
+##m2.start(7)
 print("gestartet")
+
+func = GPIO.gpio_function(19)
+print(func)
 
 # m1.ChangeDutyCycle(10)   # 3 - 10
 # print m1
