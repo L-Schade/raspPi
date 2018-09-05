@@ -11,15 +11,15 @@ GPIO.setmode(GPIO.BCM)
 
 
 GPIO.setup(19, GPIO.OUT)
+GPIO.setup(17, GPIO.OUT)
 
-m1 = GPIO.PWM(19, GPIO.HIGH) # 1000  GPIO.PWM(pin, frequenz[Hz])
-##m1 = GPIO.HARD_PWM(19,10000)
-m2 = GPIO.PWM(19, 1000)
+m1 = GPIO.PWM(19, 1000) # 1000  GPIO.PWM(pin, frequenz[Hz])
+# m1 = GPIO.HARD_PWM(19, float(1000.00))
+m2 = GPIO.PWM(17, 1000)
 
 dc = 7
-
 m1.start(dc)   # start(duty circle [%])
-##m2.start(7)
+m2.start(25)
 print("gestartet")
 
 func = GPIO.gpio_function(19)
@@ -27,9 +27,10 @@ print(func)
 
 # m1.ChangeDutyCycle(10)   # 3 - 10
 # print m1
-time.sleep(6)
+time.sleep(10)
 
 m1.stop()
+m2.stop()
 GPIO.cleanup()
 # quit()
 

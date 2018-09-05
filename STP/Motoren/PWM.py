@@ -1,20 +1,24 @@
-# import RPIO
+import RPIO
 from RPIO import PWM
-
-# from RPi.GPIO import PWM
-# import RPIO._GPIO as _GPIO
 
 
 # todo
 # RuntimeError: No access to /dev/mem. Try running as root!
+# im Terminal mit sudo ausfuehren
 
 servo = PWM.Servo()
 servo.set_servo(19, 1200)
 servo.set_servo(17, 2000)
 servo.stop_servo(17)
 
-# RPIO.setup(4, RPIO.OUT)
-# RPIO.
+
+PWM.setup()
+PWM.init_channel(0)
+PWM.add_channel_pulse(0, 19, 0, 50)
+PWM.add_channel_pulse(0, 19 ,100 ,50)
+PWM.clear_channel_gpio(0, 19)
+PWM.cleanup()
+
 
 ##import  time
 ##from  RPIO import  PWM
