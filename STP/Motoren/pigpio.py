@@ -1,10 +1,10 @@
-import RPi.GPIO as GPIO
+# import RPi.GPIO as GPIO
 import pigpio
 import time
 
 # pigpio.exceptions = False
 
-GPIO.setmode(GPIO.BCM)
+# GPIO.setmode(GPIO.BCM)
 m1 = 17
 
 pi = pigpio.pi()

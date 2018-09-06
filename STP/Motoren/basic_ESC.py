@@ -15,11 +15,11 @@ GPIO.setup(17, GPIO.OUT)
 
 m1 = GPIO.PWM(19, 1000) # 1000  GPIO.PWM(pin, frequenz[Hz])
 # m1 = GPIO.HARD_PWM(19, float(1000.00))
-m2 = GPIO.PWM(17, 1000)
+m2 = GPIO.PWM(17, 100)
 
-dc = 7
+dc = 5
 m1.start(dc)   # start(duty circle [%])
-m2.start(25)
+m2.start(5)
 print("gestartet")
 
 func = GPIO.gpio_function(19)
@@ -29,8 +29,10 @@ print(func)
 # print m1
 time.sleep(10)
 
+print("stop")
 m1.stop()
 m2.stop()
+GPIO.output(17, False)
 GPIO.cleanup()
 # quit()
 
