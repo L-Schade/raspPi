@@ -14,9 +14,9 @@ servo = Servo(m1)
 
 time.sleep(5)
 
-##a = PWMOutputDevice(13)
-##a.on()
-##a.value = 0.5             # spinning at half speed.
+a = PWMOutputDevice(19)
+a.on()
+a.value = 0.5             # spinning at half speed.
     
 
 
