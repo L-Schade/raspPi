@@ -1,0 +1,7 @@
+PWM.py
+	ioctl_set_msg failed:-1
+	ioctl_set_msg failed:-1
+
+pigpio
+	Modul pigpio has no attribut pi
+

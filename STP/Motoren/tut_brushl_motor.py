@@ -1,8 +1,8 @@
 from time import sleep
 import pigpio
-import Rpi.GPIO as GPIO
+import RPi.GPIO as GPIO
 
-GPOI.setmode(GPOI.BCM)
+GPIO.setmode(GPIO.BCM)
 
 pi = pigpio.pi()
 
