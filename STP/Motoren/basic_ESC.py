@@ -19,7 +19,7 @@ m2 = GPIO.PWM(17, 100)
 
 dc = 5
 m1.start(dc)   # start(duty circle [%]) 7-10c
-m2.start(100)
+m2.start(10)
 print("gestartet")
 
 func = GPIO.gpio_function(19)
