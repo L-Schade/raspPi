@@ -15,9 +15,9 @@ p1 = GPIO.PWM(servoPin1, 1000) # GPIO 17 als PWM mit 50Hz
 p1.start(2.5) # Initialisierung
 try:
     while True:
-        p.ChangeDutyCycle(5)
-        p1.ChangeDutyCycle(5)
-        time.sleep(0.05)
+        p.ChangeDutyCycle(100)
+        p1.ChangeDutyCycle(100)
+        time.sleep(0.5)
         p.ChangeDutyCycle(7.5)
         p1.ChangeDutyCycle(7.5)
         time.sleep(0.5)

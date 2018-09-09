@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-enable_pin = 18			# 12, 13, 18, 19 Hardware PWM
+enable_pin = 19
 pin_1 = 23
 pin_2 = 2
 
@@ -16,31 +16,31 @@ pwm_motor.start(0)
 def forward(duty_cycle): 
     GPIO.output(pin_1, True) 
     GPIO.output(pin_2, False) 
-    motor_pwm.ChangeDutyCycle(duty_cycle) 
+    pwm_motor.ChangeDutyCycle(duty_cycle)
 
 
 def reverse(duty_cycle): 
     GPIO.output(pin_1, False) 
     GPIO.output(pin_2, True) 
-    motor_pwm.ChangeDutyCycle(duty_cycle) 
+    pwm_motor.ChangeDutyCycle(duty_cycle)
 
 
 def stop(): 
-    GPIO.output(in_1_pin, False) 
-    GPIO.output(in_2_pin, False) 
-    motor_pwm.ChangeDutyCycle(0)    
+    GPIO.output(pin_1, False)
+    GPIO.output(pin_2, False)
+    pwm_motor.ChangeDutyCycle(0)
 
 try: 
     while True: 
         direction = raw_input('w – forward, x – reverse, t - stop') 
-        if direction[0]=='t': 
+        if (direction[0]=='t'):
             stop() 
-            else: 
-                duty_cycle= input('Duty cycle (0-100%)') 
-                if direction [0]=='w': 
-                    forward(duty_cycle) 
-    		elif direction [0]=='s': 
-                     reverse(duty_cycle)
+        else:
+            duty_cycle= input('Duty cycle (0-100%)')
+            if (direction [0]=='w'):
+                forward(duty_cycle)
+            elif(direction [0]=='s'):
+                reverse(duty_cycle)
  
 finally: 
     print("Cleaning up") 
