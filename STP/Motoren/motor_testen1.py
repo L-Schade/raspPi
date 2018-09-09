@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-enable_pin = 18
+enable_pin = 18			# 12, 13, 18, 19 Hardware PWM
 pin_1 = 23
 pin_2 = 2
 
