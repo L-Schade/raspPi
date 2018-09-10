@@ -10,7 +10,7 @@ pin_2 = 2
 GPIO.setup(enable_pin, GPIO.OUT) 
 GPIO.setup(pin_1, GPIO.OUT) 
 GPIO.setup(pin_2, GPIO.OUT) 
-pwm_motor=GPIO.PWM(enable_pin,500) 
+pwm_motor=GPIO.PWM(enable_pin,1000)
 pwm_motor.start(0)
 
 def forward(duty_cycle): 
@@ -32,15 +32,18 @@ def stop():
 
 try: 
     while True: 
-        direction = raw_input('w – forward, x – reverse, t - stop') 
-        if (direction[0]=='t'):
+        direction = raw_input("w: forward, x: reverse, t: stop")     # raw_input
+        if (direction[0]=="t"):
             stop() 
         else:
-            duty_cycle= input('Duty cycle (0-100%)')
+            duty_cycle= input('Duty cycle (0-100%')
             if (direction [0]=='w'):
                 forward(duty_cycle)
             elif(direction [0]=='s'):
                 reverse(duty_cycle)
+            else:
+                print("undefined key pressed")
+                GPIO.cleanup()
  
 finally: 
     print("Cleaning up") 
