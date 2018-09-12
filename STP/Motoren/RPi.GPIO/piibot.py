@@ -3,7 +3,7 @@ import time
 
 # configurate
 m1 = 19
-m2 = 17
+m2 = 11
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -12,7 +12,7 @@ GPIO.setup(m2, GPIO.OUT)
 
 pwm1 = GPIO.PWM(m1, 1000)
 pwm1.start(0)
-pwm2 = GPIO.PWM(m2, 100)
+pwm2 = GPIO.PWM(m2, 50)
 pwm2.start(0)
 print("ready")
 

@@ -9,10 +9,10 @@ try:
 	p.start(0)
 	for dc in range(0, 101, 5):
 	    p.ChangeDutyCycle(dc)
-	    time.sleep(0.1)
+	    time.sleep(0.5)
 	for dc in range(100, -1, -5):
 	    p.ChangeDutyCycle(dc)
-	    time.sleep(0.1)
+	    time.sleep(0.5)
 
 finally:
 	p.stop()

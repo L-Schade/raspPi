@@ -8,7 +8,7 @@ import time
 
 servo = PWM.Servo()
 
-servo.set_servo(19, 1200)   # 1.2ms
+servo.set_servo(11, 1200)   # 1.2ms
 # servo.set_servo(17, 2000)   # 2.0ms
 # servo.stop_servo(17)
 time.sleep(10)
@@ -18,20 +18,20 @@ time.sleep(10)
 # PWM.init_channel(0)
 PWM.init_channel(2)
 
-PWM.add_channel_pulse(2, 19, 7, 1000)
+PWM.add_channel_pulse(2, 11, 7, 50)
 print("wait...")
 time.sleep(5)
 
-PWM.add_channel_pulse(0, 19 ,100 ,50)
+PWM.add_channel_pulse(0, 11 ,100 ,50)
 print("wait...")
 time.sleep(5)
 
-servo.stop_servo(17)
-servo.stop_servo(19)
+servo.stop_servo(11)
+# servo.stop_servo(19)
 
 # PWM.clear_channel_gpio(0, 17)
 PWM.clear_channel_gpio(0, 19)
-M.cleanup()
+PWM.cleanup()
 
 
 ##import  time
