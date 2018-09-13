@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO 
 import time
 
-servo_pin = 17
+servo_pin = 11
 # servo_pin = 19
 null_deg = 0.5
 oneeightnull_deg = 2.5

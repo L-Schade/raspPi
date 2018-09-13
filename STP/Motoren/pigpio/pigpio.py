@@ -5,7 +5,7 @@ import time
 # pigpio.exceptions = False
 
 # GPIO.setmode(GPIO.BCM)
-m1 = 17
+m1 = 19
 
 pi = pigpio.pi()
 pi.set_servo_pulsewidth(m1, 1000)

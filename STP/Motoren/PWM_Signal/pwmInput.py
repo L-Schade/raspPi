@@ -6,7 +6,7 @@ import RPi.GPIO as GPIO
 # from matplotlib import style
 
 
-pin_in = 4
+pin_in = 19
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(pin_in, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)	# Pull-Down-Widerstand
