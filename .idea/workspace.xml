@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="180207a2-6c89-4173-9be7-026368d240ba" name="Default" comment="" />
+    <list default="true" id="180207a2-6c89-4173-9be7-026368d240ba" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/drive_brushless_motor.py" afterPath="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/drive_brushless_motor.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,92 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gui.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GUI/gui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="391" column="19" lean-forward="false" selection-start-line="391" selection-start-column="19" selection-end-line="391" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-                <element signature="e#1077#1307#0" expanded="false" />
-                <element signature="e#1979#2324#0" expanded="false" />
-                <element signature="e#2353#4759#0" expanded="false" />
-                <element signature="e#3043#3850#0" expanded="false" />
-                <element signature="e#3893#4260#0" expanded="false" />
-                <element signature="e#4302#4759#0" expanded="false" />
-                <element signature="e#4788#6560#0" expanded="false" />
-                <element signature="e#4847#5597#0" expanded="false" />
-                <element signature="e#5640#6013#0" expanded="false" />
-                <element signature="e#6055#6560#0" expanded="false" />
-                <element signature="e#6588#7288#0" expanded="false" />
-                <element signature="e#7316#8213#0" expanded="false" />
-                <element signature="e#8969#8996#0" expanded="false" />
-                <element signature="e#9031#10143#0" expanded="false" />
-                <element signature="e#10089#10107#0" expanded="false" />
-                <element signature="e#10179#10392#0" expanded="false" />
-                <element signature="e#10429#10478#0" expanded="false" />
-                <element signature="e#10516#10575#0" expanded="false" />
-                <element signature="e#10609#10874#0" expanded="false" />
-                <element signature="e#10901#11024#0" expanded="false" />
-                <element signature="e#11053#11161#0" expanded="false" />
-                <element signature="e#11210#11378#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detektion.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detektion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-              <folding>
-                <element signature="e#166#530#0" expanded="false" />
-                <element signature="e#332#511#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="motion_control_scriptG.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/motion_control_scriptG.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="motor_control.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/motor_control.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="motor_testen.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/motor_testen.py">
+      <file leaf-file-name="schrittmotor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/STP/Motoren/Mikrocontroller/schrittmotor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="distance_calculator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distance_calculator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -143,6 +65,9 @@
       <find>loadI</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -184,10 +109,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="52" />
-    <option name="width" value="1301" />
-    <option name="height" value="716" />
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="1362" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -204,7 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,7 +158,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,38 +167,6 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.gui">
-    <configuration default="true" type="#PerlConfigurationType" factoryName="Perl" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="alternativeSdkPath" />
-      <option name="compileTimeBreakpointsEnabled" value="false" />
-      <option name="consoleCharset" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="nonInteractiveModeEnabled" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="perlParameters" value="" />
-      <option name="programParameters" />
-      <option name="scriptPath" />
-      <option name="useAlternativeSdk" value="false" />
-      <option name="workingDirectory" />
-      <option name="SCRIPT_PATH" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="PERL_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENVS">
-        <map />
-      </option>
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="CHARSET" />
-      <option name="USE_ALTERNATIVE_SDK" value="false" />
-      <option name="ALTERNATIVE_SDK_PATH" />
-      <option name="scriptCharset" value="utf8" />
-      <option name="startMode" value="RUN" />
-      <option name="isNonInteractiveModeEnabled" value="false" />
-      <option name="isCompileTimeBreakpointsEnabled" value="false" />
-      <option name="initCode" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,60 +308,6 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="detektion" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Programm" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detektion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="imagesG" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Programm" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/imagesG.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="gui" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Programm" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/gui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="motion_control_script.pl" type="#PerlConfigurationType" factoryName="Perl" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="alternativeSdkPath" />
       <option name="compileTimeBreakpointsEnabled" value="false" />
@@ -531,6 +370,60 @@
       <option name="isNonInteractiveModeEnabled" value="false" />
       <option name="isCompileTimeBreakpointsEnabled" value="false" />
       <option name="initCode" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="detektion" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Programm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detektion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="imagesG" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Programm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/imagesG.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gui" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Programm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="motion_control_script" type="PythonConfigurationType" factoryName="Python">
@@ -605,16 +498,14 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="9">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.detektion" />
       <item index="1" class="java.lang.String" itemvalue="Python.imagesG" />
       <item index="2" class="java.lang.String" itemvalue="Python.gui" />
-      <item index="3" class="java.lang.String" itemvalue="Perl.motion_control_script.pl" />
-      <item index="4" class="java.lang.String" itemvalue="Perl.readkey.pl" />
-      <item index="5" class="java.lang.String" itemvalue="Python.motion_control_script" />
-      <item index="6" class="java.lang.String" itemvalue="Python.distance_calculator" />
-      <item index="7" class="java.lang.String" itemvalue="Python.edge_detection" />
-      <item index="8" class="java.lang.String" itemvalue="Python.testen" />
+      <item index="3" class="java.lang.String" itemvalue="Python.motion_control_script" />
+      <item index="4" class="java.lang.String" itemvalue="Python.distance_calculator" />
+      <item index="5" class="java.lang.String" itemvalue="Python.edge_detection" />
+      <item index="6" class="java.lang.String" itemvalue="Python.testen" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -631,27 +522,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="1301" height="716" extended-state="0" />
+    <frame x="-1" y="24" width="1362" height="721" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19907764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1985294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5242121" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3421462" sideWeight="0.47578785" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980484" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3421462" sideWeight="0.47578785" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -699,75 +590,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.mcs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/script.mcs" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.mcs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
+    <entry file="file://$PROJECT_DIR$/script.mcs" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
     <entry file="file://$PROJECT_DIR$/storm32_script.py" />
     <entry file="file://$PROJECT_DIR$/storm32_script.py" />
     <entry file="file://$PROJECT_DIR$/motion_controll_script.pl" />
@@ -781,37 +617,13 @@
     <entry file="file://$PROJECT_DIR$/coordinaten" />
     <entry file="file://$PROJECT_DIR$/sript.mcs" />
     <entry file="file://$PROJECT_DIR$/coordinaten.txt" />
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
     <entry file="file://$PROJECT_DIR$/notizen.py" />
     <entry file="file://$PROJECT_DIR$/gui.py" />
-    <entry file="file://$PROJECT_DIR$/Input/notizen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="112" column="55" lean-forward="false" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Input/notizen.py" />
     <entry file="file://$PROJECT_DIR$/GUI/functions.py" />
-    <entry file="file://$PROJECT_DIR$/GUI/script.mcs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.mcs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/script.mcs" />
+    <entry file="file://$PROJECT_DIR$/script.mcs" />
     <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -820,149 +632,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/distance_calculatorG.py" />
-    <entry file="file://$PROJECT_DIR$/coordinates.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/coordinates.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distance_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Input/testen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edge_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#48#69#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/motor_controlG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/motor_testen.py">
+    <entry file="file://$PROJECT_DIR$/coordinates.txt" />
+    <entry file="file://$PROJECT_DIR$/GUI/coordinates.txt" />
+    <entry file="file://$PROJECT_DIR$/distance_calculator.py" />
+    <entry file="file://$PROJECT_DIR$/Input/testen.py" />
+    <entry file="file://$PROJECT_DIR$/edge_detection.py" />
+    <entry file="file://$PROJECT_DIR$/GUI/motor_controlG.py" />
+    <entry file="file://$PROJECT_DIR$/motor_testen.py" />
+    <entry file="file://$PROJECT_DIR$/motor_control.py" />
+    <entry file="file://$PROJECT_DIR$/motion_control_script.py" />
+    <entry file="file://$PROJECT_DIR$/GUI/imagesG.py" />
+    <entry file="file://$PROJECT_DIR$/GUI/functionsG.py" />
+    <entry file="file://$PROJECT_DIR$/detektion.py" />
+    <entry file="file://$PROJECT_DIR$/GUI/motion_control_scriptG.py" />
+    <entry file="file://$PROJECT_DIR$/GUI/gui.py" />
+    <entry file="file://$PROJECT_DIR$/STP/Motoren/Mikrocontroller/schrittmotor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/motor_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/motion_control_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="143" column="10" lean-forward="false" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1916#2373#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/imagesG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/functionsG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#103#903#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detektion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-          <folding>
-            <element signature="e#166#530#0" expanded="false" />
-            <element signature="e#332#511#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/motion_control_scriptG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="391" column="19" lean-forward="false" selection-start-line="391" selection-start-column="19" selection-end-line="391" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#1077#1307#0" expanded="false" />
-            <element signature="e#1979#2324#0" expanded="false" />
-            <element signature="e#2353#4759#0" expanded="false" />
-            <element signature="e#3043#3850#0" expanded="false" />
-            <element signature="e#3893#4260#0" expanded="false" />
-            <element signature="e#4302#4759#0" expanded="false" />
-            <element signature="e#4788#6560#0" expanded="false" />
-            <element signature="e#4847#5597#0" expanded="false" />
-            <element signature="e#5640#6013#0" expanded="false" />
-            <element signature="e#6055#6560#0" expanded="false" />
-            <element signature="e#6588#7288#0" expanded="false" />
-            <element signature="e#7316#8213#0" expanded="false" />
-            <element signature="e#8969#8996#0" expanded="false" />
-            <element signature="e#9031#10143#0" expanded="false" />
-            <element signature="e#10089#10107#0" expanded="false" />
-            <element signature="e#10179#10392#0" expanded="false" />
-            <element signature="e#10429#10478#0" expanded="false" />
-            <element signature="e#10516#10575#0" expanded="false" />
-            <element signature="e#10609#10874#0" expanded="false" />
-            <element signature="e#10901#11024#0" expanded="false" />
-            <element signature="e#11053#11161#0" expanded="false" />
-            <element signature="e#11210#11378#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
