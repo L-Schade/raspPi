@@ -13,3 +13,6 @@ $ sudo chmod g+rw		-> chmod: fehlender Operand nach »g+rw“
 „chmod --help“ liefert weitere Informationen.
 
 
+links:
+	https://medium.com/@rxseger/pulse-width-modulation-using-pwm-to-build-a-breathing-nightlight-and-alarm-6f3ff5682afc
+
