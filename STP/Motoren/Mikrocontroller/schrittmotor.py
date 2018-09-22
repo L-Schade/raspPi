@@ -45,6 +45,6 @@ if __name__ == '__main__':
     while True:
         delay = raw_input("Zeitverzoegerung (ms)?")
         steps = raw_input("Wie viele Schritte vorwaerts? ")
-        forward(float(delay) / 1000.0,int(steps))
+        forward((float(delay) / 1000.0),int(steps))
         steps = raw_input("Wie viele Schritte rueckwaerts? ")
-        backwards(float(delay) / 1000.0, int(steps))
+        backwards((float(delay) / 1000.0), int(steps))

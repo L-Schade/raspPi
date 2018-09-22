@@ -15,7 +15,7 @@ pi=pigpio.pi()
 pwm=wavePWM.PWM(pi)
 
 
-pwm.set_frequency(1000)
+pwm.set_frequency(10000)        # 10k Hz
 print(pwm.frequency)
 print(pwm.get_cycle_length())
 print(pwm.get_GPIO_settings(4))
@@ -25,16 +25,21 @@ print("\n")
 
 ##pwm.update()
 
-pwm.set_pulse_start_and_length_in_fraction(4,0,0.6)     ## 0.2
-pwm.set_pulse_start_and_length_in_fraction(23,0.33,0.6)
-pwm.set_pulse_start_and_length_in_fraction(24,0.66,0.6)
+##pwm.set_pulse_start_and_length_in_fraction(4,0,0.75)   
+##pwm.set_pulse_start_and_length_in_fraction(23,0.33,0.75)
+##pwm.set_pulse_start_and_length_in_fraction(24,0.66,0.75)
 
-##pwm.set_pulse_length_in_micros(4, 500) 
-##pwm.set_pulse_length_in_fraction(4, 0.5)
+##pwm.set_pulse_start_and_length_in_fraction(4,0.33,0.2)     ## 0.2
+##pwm.set_pulse_start_and_length_in_fraction(23,0.66,0.2)
+##pwm.set_pulse_start_and_length_in_fraction(24,0,0.2)
 
-##pwm.set_pulse_start_and_length_in_micros(4,0,12)
-##pwm.set_pulse_start_and_length_in_micros(23,0.33,12)
-##pwm.set_pulse_start_and_length_in_micros(24,0.66,12)
+##time.sleep(0.125)
+##time.sleep(2)
+
+# haengt noch manchmal
+pwm.set_pulse_start_and_length_in_micros(4,0,80)        # ca 4 Grad
+pwm.set_pulse_start_and_length_in_micros(23,0.33,80)
+pwm.set_pulse_start_and_length_in_micros(24,0.66,80)
 
 
 pwm.update()
@@ -45,7 +50,9 @@ print(pwm.get_GPIO_settings(4))
 print(pwm.get_GPIO_settings(23))
 print(pwm.get_GPIO_settings(24))
 
-
-time.sleep(0.125)
-##time.sleep(2)
 pwm.cancel()
+
+##pwm.set_pulse_length_in_micros(4, 500) 
+##pwm.set_pulse_length_in_fraction(4, 0.5)
+
+
