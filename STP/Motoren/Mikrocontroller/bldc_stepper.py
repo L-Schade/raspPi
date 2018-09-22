@@ -1,10 +1,3 @@
-##//
-##// Slow and precise BLDC motor driver using SPWM and SVPWM modulation
-##// Part of code used from http://elabz.com/
-##// (c) 2015 Ignas Gramba www.berryjam.eu
-##//
- 
- 
 const int EN1 = 5;
 const int EN2 = 6;
 const int EN3 = 7;
