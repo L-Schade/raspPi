@@ -15,7 +15,8 @@ pi=pigpio.pi()
 pwm=wavePWM.PWM(pi)
 
 
-pwm.set_frequency(1000)        # 1k Hz oder 10k Hz
+pwm.set_frequency(1000)    		# 1k Hz oder 10k Hz
+##pwm.set_cycle_time(micros)	# in microseconds
 print(pwm.frequency)
 print(pwm.get_cycle_length())
 print(pwm.get_GPIO_settings(4))
@@ -23,6 +24,10 @@ print(pwm.get_GPIO_settings(23))
 print(pwm.get_GPIO_settings(24))
 print("\n")
 
+##set_pulse_length_in_micros(gpio, length) 		# in microseconds
+##set_pulse_length_in_fraction(gpio, length)	# 0 - 1.0
+##set_pulse_start_in_micros(gpio, start)		# in microseconds
+##set_pulse_start_in_fraction(gpio, start)		# 0 - 1.0
 ##pwm.update()
 
 ##pwm.set_pulse_start_and_length_in_fraction(4,0,0.75)   
