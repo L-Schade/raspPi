@@ -11,9 +11,9 @@ highSpeed =  1000
 
 def setup():
     GPIO.setmode(GPIO.BCM)
-    GPIO.setup(motorPin1, GPIO.OUTPUT)
-    GPIO.setup(motorPin2, GPIO.OUTPUT)
-    GPIO.setup(motorPin3, GPIO.OUTPUT)
+    GPIO.setup(motorPin1, GPIO.OUT)
+    GPIO.setup(motorPin2, GPIO.OUT)
+    GPIO.setup(motorPin3, GPIO.OUT)
 
 
 def loop(n):
@@ -50,84 +50,84 @@ def loop(n):
 
 def rechtsrum(motorSpeed):
     # 1
-    GPIO.output(motorPin3, HIGH)
-    GPIO.output(motorPin2, LOW)
-    GPIO.output(motorPin1, LOW)
+    GPIO.output(motorPin3, GPIO.HIGH)
+    GPIO.output(motorPin2, GPIO.LOW)
+    GPIO.output(motorPin1, GPIO.LOW)
     time.sleep(motorSpeed)
 
     # 2
-    GPIO.output(motorPin3, HIGH)
-    GPIO.output(motorPin2, HIGH)
-    GPIO.output(motorPin1, LOW)
+    GPIO.output(motorPin3, GPIO.HIGH)
+    GPIO.output(motorPin2, GPIO.HIGH)
+    GPIO.output(motorPin1, GPIO.LOW)
     time.sleep(motorSpeed)
 
     # 3
-    GPIO.output(motorPin3, LOW)
-    GPIO.output(motorPin2, HIGH)
-    GPIO.output(motorPin1, LOW)
+    GPIO.output(motorPin3, GPIO.LOW)
+    GPIO.output(motorPin2, GPIO.HIGH)
+    GPIO.output(motorPin1, GPIO.LOW)
     time.sleep(motorSpeed)
 
     # 4
-    GPIO.output(motorPin3, LOW)
-    GPIO.output(motorPin2, HIGH)
-    GPIO.output(motorPin1, HIGH)
+    GPIO.output(motorPin3, GPIO.LOW)
+    GPIO.output(motorPin2, GPIO.HIGH)
+    GPIO.output(motorPin1, GPIO.HIGH)
     time.sleep(motorSpeed)
 
     # 5
-    GPIO.output(motorPin3, LOW)
-    GPIO.output(motorPin2, LOW)
-    GPIO.output(motorPin1, HIGH)
+    GPIO.output(motorPin3, GPIO.LOW)
+    GPIO.output(motorPin2, GPIO.LOW)
+    GPIO.output(motorPin1, GPIO.HIGH)
     time.sleep(motorSpeed)
 
     # 6
-    GPIO.output(motorPin3, HIGH)
-    GPIO.output(motorPin2, LOW)
-    GPIO.output(motorPin1, HIGH)
+    GPIO.output(motorPin3, GPIO.HIGH)
+    GPIO.output(motorPin2, GPIO.LOW)
+    GPIO.output(motorPin1, GPIO.HIGH)
     time.sleep(motorSpeed)
 
 
 def linksrum(motorSpeed):
     # 1
-    GPIO.output(motorPin1, HIGH)
-    GPIO.output(motorPin2, LOW)
+    GPIO.output(motorPin1, GPIO.HIGH)
+    GPIO.output(motorPin2, GPIO.LOW)
     GPIO.output(motorPin3, LOW)
     time.sleep(motorSpeed)
 
     # 2
-    GPIO.output(motorPin1, HIGH)
-    GPIO.output(motorPin2, HIGH)
-    GPIO.output(motorPin3, LOW)
+    GPIO.output(motorPin1, GPIO.HIGH)
+    GPIO.output(motorPin2, GPIO.HIGH)
+    GPIO.output(motorPin3, GPIO.LOW)
     time.sleep(motorSpeed)
 
     # 3
-    GPIO.output(motorPin1, LOW)
-    GPIO.output(motorPin2, HIGH)
-    GPIO.output(motorPin3, LOW)
+    GPIO.output(motorPin1, GPIO.LOW)
+    GPIO.output(motorPin2, GPIO.HIGH)
+    GPIO.output(motorPin3, GPIO.LOW)
     time.sleep(motorSpeed)
 
     # 4
-    GPIO.output(motorPin1, LOW)
+    GPIO.output(motorPin1, GPIO.LOW)
     GPIO.output(motorPin2, HIGH)
     GPIO.output(motorPin3, HIGH)
     time.sleep(motorSpeed)
 
     # 5
-    GPIO.output(motorPin1, LOW)
-    GPIO.output(motorPin2, LOW)
-    GPIO.output(motorPin3, HIGH)
+    GPIO.output(motorPin1, GPIO.LOW)
+    GPIO.output(motorPin2, GPIO.LOW)
+    GPIO.output(motorPin3, GPIO.HIGH)
     time.sleep(motorSpeed)
 
     # 6
-    GPIO.output(motorPin1, HIGH)
-    GPIO.output(motorPin2, LOW)
-    GPIO.output(motorPin3, HIGH)
+    GPIO.output(motorPin1, GPIO.HIGH)
+    GPIO.output(motorPin2, GPIO.LOW)
+    GPIO.output(motorPin3, GPIO.HIGH)
     time.sleep(motorSpeed)
 
 
 def stop():
-    GPIO.output(motorPin3, LOW)
-    GPIO.output(motorPin2, LOW)
-    GPIO.output(motorPin1, LOW)
+    GPIO.output(motorPin3, GPIO.LOW)
+    GPIO.output(motorPin2, GPIO.LOW)
+    GPIO.output(motorPin1, GPIO.LOW)
 
 
 setup()
