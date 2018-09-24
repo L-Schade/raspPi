@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="180207a2-6c89-4173-9be7-026368d240ba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/drive_brushless_motor.py" afterPath="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/drive_brushless_motor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/pwmTest.py" afterPath="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/pwmTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/schrittmotor.py" afterPath="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/schrittmotor.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +19,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="schrittmotor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schrittmotor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/STP/Motoren/Mikrocontroller/schrittmotor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bldc_stepper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/STP/Motoren/Mikrocontroller/bldc_stepper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic_ESC.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/STP/Motoren/RPi.GPIO/basic_ESC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="motor_controlG.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Uni/6_Semester/Projekt/STP/GUI/motor_controlG.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="67" column="50" lean-forward="false" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -99,6 +132,8 @@
         <option value="$PROJECT_DIR$/detektion.py" />
         <option value="$PROJECT_DIR$/GUI/motion_control_scriptG.py" />
         <option value="$PROJECT_DIR$/GUI/gui.py" />
+        <option value="$PROJECT_DIR$/STP/Motoren/Mikrocontroller/bldc_stepper.py" />
+        <option value="$PROJECT_DIR$/../Uni/6_Semester/Projekt/STP/GUI/motor_controlG.py" />
       </list>
     </option>
   </component>
@@ -111,8 +146,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="24" />
-    <option name="width" value="1362" />
-    <option name="height" value="721" />
+    <option name="width" value="1826" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -129,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,6 +192,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -165,6 +200,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Uni/6_Semester/Projekt/STP/GUI/motor_controlG.py" />
   </component>
   <component name="RunManager" selected="Python.gui">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -522,10 +558,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1362" height="721" extended-state="6" />
+    <frame x="-1" y="24" width="1826" height="937" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1985294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19846492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5242121" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -593,9 +629,6 @@
     <entry file="file://$PROJECT_DIR$/script.mcs" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
     <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
-    <entry file="file://$PROJECT_DIR$/script.mcs" />
-    <entry file="file://$PROJECT_DIR$/readkey.pl" />
-    <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
     <entry file="file://$PROJECT_DIR$/motion_control_script.pl" />
     <entry file="file://$PROJECT_DIR$/readkey.pl" />
@@ -648,8 +681,34 @@
     <entry file="file://$PROJECT_DIR$/GUI/gui.py" />
     <entry file="file://$PROJECT_DIR$/STP/Motoren/Mikrocontroller/schrittmotor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STP/Motoren/Mikrocontroller/bldc_stepper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STP/Motoren/RPi.GPIO/basic_ESC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Uni/6_Semester/Projekt/STP/GUI/motor_controlG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="67" column="50" lean-forward="false" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
           <folding />
         </state>
       </provider>

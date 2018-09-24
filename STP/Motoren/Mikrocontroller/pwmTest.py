@@ -56,12 +56,12 @@ print("\n")
 
 pwm.set_pulse_start_and_length_in_micros(4,10,80)        # ca 4 Grad
 pwm.set_pulse_start_and_length_in_micros(23,20,25)
-pwm.set_pulse_start_and_length_in_micros(24,30,20)
+pwm.set_pulse_start_and_length_in_micros(24,30,40)
 
 # relativ gute Einstellung
 ##pwm.set_pulse_start_and_length_in_micros(4,0,3.75)        # ca 3-4 Grad
 ##pwm.set_pulse_start_and_length_in_micros(23,1.33,1.5)
-##pwm.set_pulse_start_and_length_in_micros(24,2.66,1.5)     # je groesser desto groesserer Wibkel
+##pwm.set_pulse_start_and_length_in_micros(24,2.66,2)     # je groesser desto groesserer Wibkel
 
 
 pwm.update()
