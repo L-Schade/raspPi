@@ -64,11 +64,11 @@ def reference_point():
 
 
 def move(x_angle, y_angle, delay):
-    if x_angle 0:
+    if x_angle > 0:
         forward((float(delay) / 1000.0), int(steps))
     else:
         backwards((float(delay) / 1000.0), int(steps))
-    if y_angle 0:
+    if y_angle > 0:
         forward((float(delay) / 1000.0), int(steps))
     else:
         backwards((float(delay) / 1000.0), int(steps))
