@@ -67,10 +67,9 @@ def setup():
 
 
 def loop():
-    # noch anpassen
-    GPIO.(IN1, pwmSin[currentStepA])
-    analogWrite(IN2, pwmSin[currentStepB])
-    analogWrite(IN3, pwmSin[currentStepC])
+    GPIO.output(IN1, pwmSin[currentStepA])
+    GPIO.output(IN2, pwmSin[currentStepB])
+    GPIO.output(IN3, pwmSin[currentStepC])
 
     if direct is True:
         increment = 1
