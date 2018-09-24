@@ -11,7 +11,7 @@ coil_C_pin = 24 # blau
  
 # Sequenz
 ind = 0
-##StepCount = 6
+# half-steps
 Seq = list(range(0, 6))
 Seq[0] = [1,1,0]
 Seq[1] = [1,0,0]
@@ -20,9 +20,16 @@ Seq[3] = [0,0,1]
 Seq[4] = [0,1,1]
 Seq[5] = [0,1,0]
 Seq[5] = [0,1,0]
+# full-steps
+##Seq = list(range(0, 3))
+##Seq[0] = [1,0,0]
+##Seq[1] = [0,1,0]
+##Seq[2] = [0,0,1]
 
- 
-1#GPIO.setup(enable_pin, GPIO.OUT)
+
+#GPIO.setup(enable_pin, GPIO.OUT)
+##def setup():
+##GPIO.setmode(GPIO.BCM)
 GPIO.setup(coil_A_pin, GPIO.OUT)
 GPIO.setup(coil_B_pin, GPIO.OUT)
 GPIO.setup(coil_C_pin, GPIO.OUT)
@@ -38,23 +45,25 @@ def setStep(w1, w2, w3):
 def forward(delay, steps):
     global ind
     for i in range(0, steps, 1):
-            setStep(Seq[ind][0], Seq[ind][1], Seq[ind][2])
-            time.sleep(delay)
-            print(ind)
-            ind += 1
-            ind = ind % 6
-##            print(ind)
+        ind += 1
+        ind = ind % 6
+        print(ind)
+        
+        print(Seq[ind][0], Seq[ind][1], Seq[ind][2])
+        setStep(Seq[ind][0], Seq[ind][1], Seq[ind][2])
+        time.sleep(delay)
 
- 
+
 def backwards(delay, steps):
     global ind
     for i in range(0, steps, 1):
-            setStep(Seq[ind][0], Seq[ind][1], Seq[ind][2])
-            time.sleep(delay)
-            print(ind)
-            ind -= 1
-            ind = ind % 6
-            print(ind)
+        ind -= 1
+        ind = ind % 6
+        print(ind)
+        
+        print(Seq[ind][0], Seq[ind][1], Seq[ind][2])
+        setStep(Seq[ind][0], Seq[ind][1], Seq[ind][2])
+        time.sleep(delay)      
 
 
 def reference_point():
@@ -78,10 +87,11 @@ if __name__ == '__main__':
     try:
         delay = raw_input("Zeitverzoegerung (ms)?")
         while True:
-            ##        delay = raw_input("Zeitverzoegerung (ms)?")
+##            delay = raw_input("Zeitverzoegerung (ms)?") 
             steps = raw_input("Wie viele Schritte vorwaerts? ")
-            forward((float(delay) / 1000.0),int(steps))
+            1
+            forward((int(delay)/ 1000.0), int(steps))
             steps = raw_input("Wie viele Schritte rueckwaerts? ")
-            backwards((float(delay) / 1000.0), int(steps))
+            backwards((int(delay)/ 1000.0), int(steps))
     except KeyboardInterrupt:
         GPIO.cleanup()
